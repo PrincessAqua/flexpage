@@ -28,29 +28,27 @@
 }
 
 .hero{
-    /* border: 1px solid red; */
-
+    background-color: #1F2937;
+    padding: 70px 10vw;
     min-height: 250px;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.hero-text, .hero-placeholder{
+    flex: 1;
 }
 
 .hero-text
 {
     display: flex;
     flex-direction: column;
-    padding: 70px 3vw 70px 10vw;
     justify-content: center;
-    max-width: 50vw;
-    min-width: 300px;  
+    /* max-width: 50vw; */
+    min-width: 400px;
     gap: 5px;
 }
-
-.hero div{
-    background-color: #1F2937;
-    flex: 1;
-}
-
 
 .hero-main{
     font-weight: 900;
@@ -72,7 +70,14 @@ button{
 }
 
 .hero-placeholder{
-    /* border: 1px solid salmon; */
+     display: flex;
+}
+
+img{
+    background-color: #6D747D;
+    flex-grow: 1;
+    max-width: 500px;
+    margin-left: 50px;
 }
 
 
