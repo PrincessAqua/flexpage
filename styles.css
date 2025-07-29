@@ -76,6 +76,7 @@ button{
     background-color: #6D747D;
     flex-grow: 1;
     max-width: 500px;
+    /* height: auto; */
     margin-left: 50px;
 }
 
@@ -114,6 +115,63 @@ button{
 .p-inf{
     margin-top: 10px;
     color: #707883;
+}
+
+.quote{
+    padding: 60px 15vw;
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #33435a;
+
+    padding-top: 20px;
+}
+
+.quote-by{
+    text-align: right;
+    font-weight: 700;
+}
+
+.ad{
+    padding: 70px 10vw;
+    color: white;
+}
+
+.ad-content{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 40px 4vw;
+    gap: 70px;
+
+}
+
+.ad-btn{
+    border-color: white;
+}
+
+.ad-btn-div{
+    display: flex;
+    align-items: center;
+}
+
+.ad-p1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
 }
 
 
